@@ -1,0 +1,6 @@
+a = 33
+b = 33
+if a>b :
+    print("False")
+elif a==b:
+     print("They are equal")

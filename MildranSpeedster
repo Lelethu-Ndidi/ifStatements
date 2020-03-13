@@ -1,0 +1,11 @@
+driverSpeed = int(input("What was your current speed? "))
+speedLimit = int(input("What was the speed allowed on the road? "))
+# (//) : floor division sign ((in the operators))
+demeritPoints = (driverSpeed - speedLimit)//5
+
+if driverSpeed < speedLimit:
+    print("OK")
+elif driverSpeed>speedLimit :
+    print("demerit points:", demeritPoints)
+if demeritPoints>12 :
+    print("Time to go to jail!")

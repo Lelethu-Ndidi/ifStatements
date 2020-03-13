@@ -1,0 +1,13 @@
+# Input
+firstName = input("Please enter your name: ")
+surname = input("Please enter your surname: ")
+mark = int(input("Please enter your percentage mark: "))
+# If statements checking the grade of a person.
+if mark<=49:
+    print(firstName,surname,"Grade D : Failed")
+elif 50<=mark<60:
+    print(firstName,surname,"Grade C : Pass")
+elif 60<=mark<80 :
+    print(firstName,surname,"Grade B : Satisfactory")
+elif 80<=mark<=100 :
+    print(firstName,surname,"Grade A : Outstanding")
